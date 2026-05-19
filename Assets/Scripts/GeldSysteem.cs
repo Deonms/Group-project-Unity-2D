@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GeldSysteem : MonoBehaviour
 {
-    [SerializeField] private float _geldValue = 0;
+    [SerializeField] private float _geldValue = 10;
 
     public float GetGeld()
     {
@@ -12,16 +12,5 @@ public class GeldSysteem : MonoBehaviour
     public void GeldErafHalen(float ProductKost)
     {
         _geldValue = _geldValue - ProductKost;
-    }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
