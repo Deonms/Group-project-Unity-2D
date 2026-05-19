@@ -4,11 +4,14 @@ public class GeldSysteem : MonoBehaviour
 {
     [SerializeField] private float _geldValue = 0;
 
-    public float ValueVanGeld(float GeldValue)
+    public float GetGeld()
     {
-        GeldValue = _geldValue;
-        return GeldValue;
-        
+        return _geldValue;
+    }
+
+    public void GeldErafHalen(float ProductKost)
+    {
+        _geldValue = _geldValue - ProductKost;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

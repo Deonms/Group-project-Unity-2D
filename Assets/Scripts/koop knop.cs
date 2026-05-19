@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class koopknop : MonoBehaviour
 {
-    private GeldSysteem GeldValue;
+    private GeldSysteem GetGeld;
+    private GeldSysteem GeldErafHalen;
 
     [SerializeField] private GeldSysteem _geld;
     [SerializeField] private float _itemKost;
@@ -19,12 +20,12 @@ public class koopknop : MonoBehaviour
     }
     public void BuyItem()
     {
-        if (_itemKost <= _geld)
+        if (_itemKost <= _geld.GetGeld())
         {
             print($"{_itemNaam} gekocht");
-            _geld = _geld - _itemKost;
+            _geld.GeldErafHalen(_itemKost);
         }
-        else if (_itemKost > _geld)
+        else
         {
             print($"{_itemNaam} kon niet gekocht worden je hebt {_geld} en het kost {_itemKost}");
         }
