@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     private int _health = 100;
