@@ -16,13 +16,13 @@ public class koopknop : MonoBehaviour
 
     void Start()
     {
-        _text.text = $"€{_itemKost}  Koop " + _itemNaam;
+        _text.text = "€" + _itemKost + " " + _itemNaam;
     }
     public void BuyItem()
     {
         if (_itemKost <= _geld.GetGeld())
         {
-            print($"{_itemNaam} gekocht");
+            print($"{_itemNaam} is gekocht");
             _geld.GeldErafHalen(_itemKost);
         }
         else
