@@ -9,6 +9,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     private void Update()
     {
+        
         _healthImage.fillAmount = _health / 100f;
     }
 }
