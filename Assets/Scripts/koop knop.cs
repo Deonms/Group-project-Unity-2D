@@ -16,7 +16,7 @@ public class koopknop : MonoBehaviour
 
     void Start()
     {
-        _text.text = "Koop " + _itemNaam;
+        _text.text = $"€{_itemKost}  Koop " + _itemNaam;
     }
     public void BuyItem()
     {
