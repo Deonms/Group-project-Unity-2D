@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -24,6 +25,16 @@ public class PlayerInput : MonoBehaviour
         else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             OnPlayerInputRecieve.Invoke(Vector2.right);
+        }
+    }
+
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag(_bedTag) && collision.gameObject.TryGetComponent<SleepOnBed>(out SleepOnBed)
+        {
+            Console.WriteLine("sleeeepy");
         }
     }
 }
