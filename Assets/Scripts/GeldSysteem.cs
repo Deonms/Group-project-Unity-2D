@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GeldSysteem : MonoBehaviour
 {
-    [SerializeField] private float _geldValue = 10;
+    [SerializeField] private float _geldValue;
 
     public float GetGeld()
     {
