@@ -4,6 +4,8 @@ using UnityEngine.Events;
 
 public class PlayerInput : MonoBehaviour
 {
+    [SerializeField] private string _bedTag = "Bed";
+
     public UnityEvent<Vector2> OnPlayerInputRecieve = new UnityEvent<Vector2>();
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,9 +34,10 @@ public class PlayerInput : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag(_bedTag) && collision.gameObject.TryGetComponent<SleepOnBed>(out SleepOnBed)
+        if (collision.gameObject.CompareTag(_bedTag) && collision.gameObject.TryGetComponent<SleepOnBed>(out SleepOnBed))
         {
-            Console.WriteLine("sleeeepy");
+            Console.WriteLine("sleeeepy zzz");
         }
     }
 }
+
