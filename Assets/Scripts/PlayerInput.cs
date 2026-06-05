@@ -29,8 +29,9 @@ public class PlayerInput : MonoBehaviour
             OnPlayerInputRecieve.Invoke(Vector2.right);
         }
     }
+}
 
-
+    /*
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -40,4 +41,5 @@ public class PlayerInput : MonoBehaviour
         }
     }
 }
+    */
 
