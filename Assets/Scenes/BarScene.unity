@@ -1322,12 +1322,13 @@ MonoBehaviour:
   _happy: {fileID: 7879297152592542461, guid: dd715ea960bbab645b991e2fdd039eb4, type: 3}
   _neutral: {fileID: -3048037075671504497, guid: 3c7f4ffd922f62649b4fbfdfb3f07aec, type: 3}
   _sad: {fileID: 4683687083544917781, guid: ea59e0d045119e346a1a9d3bbfbaeaee, type: 3}
+  _cry: {fileID: -4640320109165840396, guid: 587c7e23297e14346af7427421a24d22, type: 3}
   _maxHealth: 100
   _maxHunger: 100
   _maxHappiness: 100
-  _healthDrain: 5
+  _healthDrain: 2
   _hungerDrain: 1
-  _happinessDrain: 0.25
+  _happinessDrain: 10
 --- !u!4 &613707577
 Transform:
   m_ObjectHideFlags: 0

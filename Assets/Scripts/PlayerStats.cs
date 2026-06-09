@@ -12,7 +12,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private Image _moodImage;
 
     [Header("Mood Sprites")]
-    [SerializeField] private Sprite _happy, _neutral, _sad;
+    [SerializeField] private Sprite _happy, _neutral, _sad, _cry;
 
     [Header("Stats")]
     [SerializeField] private float _maxHealth = 100f;
@@ -24,7 +24,7 @@ public class PlayerStats : MonoBehaviour
     private float _currentHappiness;
 
     [Header("Drain Settings")]
-    [SerializeField] private float _healthDrain = 5f;
+    [SerializeField] private float _healthDrain = 2f;
     [SerializeField] private float _hungerDrain = 1f;
     [SerializeField] private float _happinessDrain = 0.25f;
 
@@ -74,15 +74,18 @@ public class PlayerStats : MonoBehaviour
     {
         float happinessPercentage = _currentHappiness / _maxHappiness;
 
-        if (happinessPercentage >= 0.7f)
+        if (happinessPercentage >= 0.75f)
         {
             _moodImage.sprite = _happy;
-        } else if (happinessPercentage >= 0.5f && happinessPercentage < 0.7f)
+        } else if (happinessPercentage >= 0.4f && happinessPercentage < 0.75f)
         {
             _moodImage.sprite = _neutral;
         } else if (happinessPercentage >= 0.2f && happinessPercentage < 0.4f)
         {
             _moodImage.sprite = _sad;
+        } else
+        {
+            _moodImage.sprite = _cry;
         }
     }
 
