@@ -5,8 +5,9 @@ public class FoodSpawner : MonoBehaviour
 {
     [SerializeField] private List<GameObject> _foodPrefabs = new List<GameObject>();
     [SerializeField] private Transform _spawnPoint;
+    [SerializeField] private int _maxSpawning = 1;
 
-    private GameObject _currentFood;
+    private List<GameObject> _spawnedFood = new List<GameObject>();
 
     private void Start()
     {
@@ -15,7 +16,9 @@ public class FoodSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (_currentFood == null)
+        _spawnedFood.RemoveAll(food => food == null);
+
+        if (_spawnedFood.Count < _maxSpawning)
         {
             SpawnFood();
         }
@@ -33,6 +36,8 @@ public class FoodSpawner : MonoBehaviour
         GameObject prefabToSpawn = _foodPrefabs[randomIndex];
 
         Vector3 spawnPosition = _spawnPoint != null ? _spawnPoint.position : transform.position;
-        _currentFood = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+        GameObject newFood = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+
+        _spawnedFood.Add(newFood);
     }
 }
