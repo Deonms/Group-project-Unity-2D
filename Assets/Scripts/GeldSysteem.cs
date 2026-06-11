@@ -11,8 +11,7 @@ public class GeldSysteem : MonoBehaviour
     {
         return _geldValue;
     }
-
-    private void Start()
+    void Update()
     {
         _geldText.text = "€ " + _geldValue;
     }
@@ -20,5 +19,9 @@ public class GeldSysteem : MonoBehaviour
     public void GeldErafHalen(float ProductKost)
     {
         _geldValue = _geldValue - ProductKost;
+    }
+    public void VoegGeldToe(float amount)
+    {
+        _geldValue = _geldValue + amount;
     }
 }
