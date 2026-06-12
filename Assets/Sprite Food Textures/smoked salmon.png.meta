@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: c637e183f204e804cb7d7a5388e793aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7625135243190784263
+    second: smoked salmon_0
+  - first:
+      213: 4716699471290235209
+    second: smoked salmon_1
+  - first:
+      213: -8635122793628486870
+    second: smoked salmon_2
+  - first:
+      213: 9208164472301723397
+    second: smoked salmon_3
+  - first:
+      213: -9098361415580142690
+    second: smoked salmon_4
+  - first:
+      213: 4741101444141061611
+    second: smoked salmon_5
+  - first:
+      213: -1593919786445236594
+    second: smoked salmon_6
+  - first:
+      213: 4257194914524604398
+    second: smoked salmon_7
+  - first:
+      213: -7080836268103287271
+    second: smoked salmon_8
+  - first:
+      213: -4913146517433448930
+    second: smoked salmon_9
+  - first:
+      213: 2287250298785916921
+    second: smoked salmon_10
+  - first:
+      213: -2148590921359248084
+    second: smoked salmon_11
+  - first:
+      213: 5808472745075952866
+    second: smoked salmon_12
+  - first:
+      213: -4928053571996950717
+    second: smoked salmon_13
+  - first:
+      213: -3139767414701083628
+    second: smoked salmon_14
+  - first:
+      213: -8926451695629079560
+    second: smoked salmon_15
+  - first:
+      213: -4744509770715546477
+    second: smoked salmon_16
+  - first:
+      213: 8051730923461964616
+    second: smoked salmon_17
+  - first:
+      213: 4146689366320782905
+    second: smoked salmon_18
+  - first:
+      213: -6484404807006565442
+    second: smoked salmon_19
+  - first:
+      213: 3384797190894005539
+    second: smoked salmon_20
+  - first:
+      213: 2723329937921293008
+    second: smoked salmon_21
+  - first:
+      213: -1126932309715749393
+    second: smoked salmon_22
+  - first:
+      213: 4231738508547837401
+    second: smoked salmon_23
+  - first:
+      213: -5855806594653513981
+    second: smoked salmon_24
+  - first:
+      213: -7833698145473491353
+    second: smoked salmon_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: smoked salmon_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 63
+        width: 2384
+        height: 1572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe2d4165e31e2690800000000000000
+      internalID: -7625135243190784263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_1
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1539
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949f682dd25157140800000000000000
+      internalID: 4716699471290235209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_2
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1110
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2335ede191e92880800000000000000
+      internalID: -8635122793628486870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_3
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 938
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f9ae4fcc8f9cf70800000000000000
+      internalID: 9208164472301723397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_4
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 510
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93b93a6f702cb180800000000000000
+      internalID: -9098361415580142690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_5
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 337
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be59e1ed4a6cbc140800000000000000
+      internalID: 4741101444141061611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 25
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e861770366241e9e0800000000000000
+      internalID: -1593919786445236594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_7
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 50
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7a6db1838941b30800000000000000
+      internalID: 4257194914524604398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_8
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 115
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e30071ee0dbbd90800000000000000
+      internalID: -7080836268103287271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_9
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 25
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e168eeaf54ff0dbb0800000000000000
+      internalID: -4913146517433448930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_10
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 50
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f76a834702fdbf10800000000000000
+      internalID: 2287250298785916921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_11
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 0
+        width: 115
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25b0c4d0fbae22e0800000000000000
+      internalID: -2148590921359248084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_12
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 25
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec4ac1ef27db9050800000000000000
+      internalID: 5808472745075952866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_13
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 50
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fd60fd2690c9bb0800000000000000
+      internalID: -4928053571996950717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_14
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 0
+        width: 115
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4143569eb2e4d64d0800000000000000
+      internalID: -3139767414701083628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_15
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 25
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb68592a7fde1480800000000000000
+      internalID: -8926451695629079560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_16
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 50
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c3123408d182eb0800000000000000
+      internalID: -4744509770715546477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_17
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 0
+        width: 115
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8437aff6d9e7dbf60800000000000000
+      internalID: 8051730923461964616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e907132000c8930800000000000000
+      internalID: 4146689366320782905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_19
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 6
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbc9821f24c206a0800000000000000
+      internalID: -6484404807006565442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_20
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 0
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d2af79c1739fe20800000000000000
+      internalID: 3384797190894005539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 6
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da3cf356263bc520800000000000000
+      internalID: 2723329937921293008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_22
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 0
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe57b79f8055c50f0800000000000000
+      internalID: -1126932309715749393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_23
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 6
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddc558b0c72aba30800000000000000
+      internalID: 4231738508547837401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_24
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 0
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30799447deefbbea0800000000000000
+      internalID: -5855806594653513981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoked salmon_25
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 6
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e8a699a0d194390800000000000000
+      internalID: -7833698145473491353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      smoked salmon_0: -7625135243190784263
+      smoked salmon_1: 4716699471290235209
+      smoked salmon_10: 2287250298785916921
+      smoked salmon_11: -2148590921359248084
+      smoked salmon_12: 5808472745075952866
+      smoked salmon_13: -4928053571996950717
+      smoked salmon_14: -3139767414701083628
+      smoked salmon_15: -8926451695629079560
+      smoked salmon_16: -4744509770715546477
+      smoked salmon_17: 8051730923461964616
+      smoked salmon_18: 4146689366320782905
+      smoked salmon_19: -6484404807006565442
+      smoked salmon_2: -8635122793628486870
+      smoked salmon_20: 3384797190894005539
+      smoked salmon_21: 2723329937921293008
+      smoked salmon_22: -1126932309715749393
+      smoked salmon_23: 4231738508547837401
+      smoked salmon_24: -5855806594653513981
+      smoked salmon_25: -7833698145473491353
+      smoked salmon_3: 9208164472301723397
+      smoked salmon_4: -9098361415580142690
+      smoked salmon_5: 4741101444141061611
+      smoked salmon_6: -1593919786445236594
+      smoked salmon_7: 4257194914524604398
+      smoked salmon_8: -7080836268103287271
+      smoked salmon_9: -4913146517433448930
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
