@@ -10,7 +10,7 @@ public class SleepOnBed : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        print("bed script is loaded in");
     }
 
     // Update is called once per frame
@@ -23,7 +23,6 @@ public class SleepOnBed : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             FadeTransition(collision.gameObject);
-            print("bed");
         }
     }
 

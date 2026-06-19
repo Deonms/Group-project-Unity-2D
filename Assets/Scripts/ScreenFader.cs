@@ -5,6 +5,13 @@ using UnityEngine;
 public class ScreenFader : MonoBehaviour
 {
 
+    private int _daysPassed = 1;
+
+    private void Start()
+    {
+        print("screenfader script loaded in");
+    }
+
     public static ScreenFader Instance;
     [SerializeField] CanvasGroup canvasGroup;
     [SerializeField] float fadeDuration = 0.5f;
@@ -30,12 +37,18 @@ public class ScreenFader : MonoBehaviour
     public async Task FadeOut()
     {
         await Fade(1);
-
+        print("zzzzz mimimimi :3");
     }
 
     public async Task FadeIn()
     {
         await Fade(0);
+        print("wakey wakey time for skwool :3");
+        _daysPassed++;
+    }
 
+    If (_daysPassed >= 7)
+    {
+        print("je hebt het een week overleeft, ok nu tijd voor belastingsfraude!");
     }
 }

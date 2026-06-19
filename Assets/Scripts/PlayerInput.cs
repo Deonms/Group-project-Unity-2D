@@ -35,7 +35,7 @@ public class PlayerInput : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag(_bedTag) && collision.gameObject.TryGetComponent<SleepOnBed>(out SleepOnBed))
+        if (collision.gameObject.CompareTag(_bedTag))
         {
             Console.WriteLine("sleeeepy zzz");
         }
