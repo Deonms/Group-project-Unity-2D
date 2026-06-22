@@ -14,7 +14,7 @@ public class SleepOnBed : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        print("the sleeponbed script is loaded in");
+        print("the sleeponbed script is loaded in"); // hi
     }
 
     // Update is called once per frame
