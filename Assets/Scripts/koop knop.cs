@@ -18,6 +18,12 @@ public class koopknop : MonoBehaviour
     {
         _text.text = "€" + _itemKost + " " + _itemNaam;
     }
+
+    public void IncreaseHealth()
+    {
+
+    }
+
     public void BuyItem()
     {
         if (_itemKost <= _geld.GetGeld())
