@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
+    private GameOver gameOver;
+
     [Header("UI")]
     [SerializeField] private Image _healthFill;
     [SerializeField] private Image _hungerFill;
@@ -19,9 +21,9 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private float _maxHunger = 100f;
     [SerializeField] private float _maxHappiness = 100f;
 
-    private float _currentHealth;
-    private float _currentHunger;
-    private float _currentHappiness;
+    public float _currentHealth;
+    public float _currentHunger;
+    public float _currentHappiness;
 
     [Header("Drain Settings")]
     [SerializeField] private float _healthDrain;
@@ -179,6 +181,11 @@ public class PlayerStats : MonoBehaviour
         if (_currentHappiness > _maxHappiness)
         {
             _currentHappiness = _maxHealth;
+        }
+
+        if (_currentHealth <= 0)
+        {
+            //gameOver.Setup();
         }
     }
 }
