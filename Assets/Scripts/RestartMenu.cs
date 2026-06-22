@@ -1,6 +1,6 @@
 // deze mf breekt alles
 
-/* using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class WinScreen : MonoBehaviour
@@ -31,4 +31,4 @@ public class WinScreen : MonoBehaviour
     }
 }
 
-*/
+
