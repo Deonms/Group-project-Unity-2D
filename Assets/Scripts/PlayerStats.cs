@@ -1,10 +1,11 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
-    private GameOver gameOver;
+    [SerializeField] private GameOver _gameOver;
 
     [Header("UI")]
     [SerializeField] private Image _healthFill;
@@ -37,6 +38,8 @@ public class PlayerStats : MonoBehaviour
 
     private void Start()
     {
+        _gameOver = FindFirstObjectByType<GameOver>();
+
         _currentHealth = _maxHealth;
         _currentHunger = 80f;
         _currentHappiness = _maxHappiness;
@@ -180,12 +183,13 @@ public class PlayerStats : MonoBehaviour
 
         if (_currentHappiness > _maxHappiness)
         {
-            _currentHappiness = _maxHealth;
+            _currentHappiness = _maxHappiness;
         }
 
         if (_currentHealth <= 0)
         {
-            //gameOver.Setup();
+            _gameOver.ShowGameOver();
+            enabled = false;
         }
     }
 }
