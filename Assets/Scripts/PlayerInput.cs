@@ -10,7 +10,7 @@ public class PlayerInput : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        print("the playerinput script is loaded in");
     }
 
     // Update is called once per frame
