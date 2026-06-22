@@ -7,6 +7,10 @@ using TMPro;
 // string _bedTag = "Bed";
 public class SleepOnBed : MonoBehaviour
 {
+
+
+    private float _time = 0;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,12 +20,19 @@ public class SleepOnBed : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        _time += Time.deltaTime;
+        print(_time);
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if(_time < 60)
         {
+            print("go take a walk");
+        } else if (collision.gameObject.CompareTag("Player"))
+        {
+            _time = 0;
             FadeTransition(collision.gameObject);
         }
     }
