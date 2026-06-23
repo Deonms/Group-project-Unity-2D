@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Damage
+  - Unhealthy
+  - Healthy
+  - Bed
   layers:
   - Default
   - TransparentFX
