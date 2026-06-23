@@ -21,13 +21,12 @@ public class SleepOnBed : MonoBehaviour
     void Update()
     {
         _time += Time.deltaTime;
-        print(_time);
     }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(_time < 60)
+        if(_time < 10)
         {
             print("go take a walk");
         } else if (collision.gameObject.CompareTag("Player"))
@@ -39,7 +38,7 @@ public class SleepOnBed : MonoBehaviour
 
     async void FadeTransition(GameObject Player)
     {
-        await ScreenFader.Instance.FadeOut();
+        await ScreenFader.Instance.FadeOut(); // this is the error line
 
         await ScreenFader.Instance.FadeIn(); 
     }
