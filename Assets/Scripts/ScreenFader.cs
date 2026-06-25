@@ -10,7 +10,7 @@ public class ScreenFader : MonoBehaviour
         print("the screenfader script is loaded in"); // sjonge jonge deze heeft mij s wat hoofdpijn gegeven, alsjeblieft niks aan veranderen     ~ Amir
     }
 
-    private int _daysPassed = 1;
+    public static int DaysPassed = 1;
 
     public static ScreenFader Instance;
     [SerializeField] CanvasGroup canvasGroup;
@@ -53,10 +53,10 @@ public class ScreenFader : MonoBehaviour
     {
         await Fade(0);
         print("wakey wakey time for skwool :3");
-        PlayerStats.Instance.DaysSurvived++;
-        print(_daysPassed);
+        DaysPassed++;
+        print(DaysPassed);
 
-        if (_daysPassed == 7)
+        if (DaysPassed == 7)
         {
             print("je hebt het een week overleeft, ok nu tijd voor belastingsfraude! :3");
 

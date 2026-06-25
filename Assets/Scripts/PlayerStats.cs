@@ -36,27 +36,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private float _changeHunger;
     [SerializeField] private float _changeHappiness;
 
-    public static PlayerStats Instance;
-
-    public int DaysSurvived;
-
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
-
     private void Start()
     {
-        //_gameOver = FindFirstObjectByType<GameOver>();
-
         _currentHealth = _maxHealth;
         _currentHunger = 80f;
         _currentHappiness = _maxHappiness;
@@ -159,6 +140,9 @@ public class PlayerStats : MonoBehaviour
 
     private void UpdateMood()
     {
+        if (_moodImage == null)
+            return;
+
         float happinessPercentage = _currentHappiness / _maxHappiness;
 
         if (happinessPercentage >= 0.75f)
@@ -180,17 +164,26 @@ public class PlayerStats : MonoBehaviour
     {
         if (_maxHealth > 0)
         {
-            _healthFill.fillAmount = _currentHealth / _maxHealth;
+            if (_healthFill != null)
+            {
+                _healthFill.fillAmount = _currentHealth / _maxHealth;
+            }
         }
 
         if (_maxHunger > 0)
         {
-            _hungerFill.fillAmount = _currentHunger / _maxHunger;
+            if (_hungerFill != null)
+            {
+                _hungerFill.fillAmount = _currentHunger / _maxHunger;
+            }
         }
 
         if (_maxHappiness > 0)
         {
-            _happinessFill.fillAmount = _currentHappiness / _maxHappiness;
+            if (_happinessFill != null)
+            {
+                _happinessFill.fillAmount = _currentHappiness / _maxHappiness;
+            }
         }
 
         if (_currentHealth > _maxHealth)

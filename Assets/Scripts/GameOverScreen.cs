@@ -7,6 +7,6 @@ public class GameOverScreen : MonoBehaviour
 
     private void Start()
     {
-        _scoreText.text = "Days Survived: " + PlayerStats.Instance.DaysSurvived;
+        _scoreText.text = "Days Survived: " + ScreenFader.DaysPassed;
     }
 }
