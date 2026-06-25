@@ -11,11 +11,6 @@ public class ScreenFader : MonoBehaviour
     }
 
     private int _daysPassed = 1;
-    
-    public int GetDaysPassed()
-    {
-        return _daysPassed;
-    }
 
     public static ScreenFader Instance;
     [SerializeField] CanvasGroup canvasGroup;
@@ -23,6 +18,8 @@ public class ScreenFader : MonoBehaviour
 
     private void Awake()
     {
+        Debug.Log("ScreenFader Awake");
+
         if (Instance == null)
         {
             Instance = this;
@@ -52,12 +49,11 @@ public class ScreenFader : MonoBehaviour
         print("zzzzz mimimimi :3");
     }
 
-
     public async Task FadeIn()
     {
         await Fade(0);
         print("wakey wakey time for skwool :3");
-        _daysPassed++;
+        PlayerStats.Instance.DaysSurvived++;
         print(_daysPassed);
 
         if (_daysPassed == 7)

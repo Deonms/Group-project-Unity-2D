@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BarScene.unity
     guid: 18689fc23241bbb43af3a399f2c99251
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/GameOverScene.unity
     guid: 79f6544e7f8c59d4895ac4ae8beb40ab
   m_configObjects:
