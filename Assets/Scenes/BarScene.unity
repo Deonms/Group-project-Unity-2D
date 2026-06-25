@@ -932,7 +932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -942,6 +942,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1176850343}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -963,8 +967,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -1042,6 +1050,14 @@ PrefabInstance:
       propertyPath: _geld
       value: 
       objectReference: {fileID: 1640337775}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1372,7 +1388,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -1382,6 +1398,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 489634047}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1403,8 +1423,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: HappinessIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -1490,6 +1514,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: Chocolade
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2947,7 +2979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -2957,6 +2989,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 837209005}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -2978,8 +3014,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: HungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -3065,6 +3105,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: pizza
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3245,7 +3293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -3255,6 +3303,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 554323774}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -3276,8 +3328,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -3367,6 +3423,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: Watermeloen
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3527,6 +3591,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440351688}
   m_CullTransparentMesh: 1
+--- !u!114 &489634047 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 145074828}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &509934570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3697,7 +3772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -3707,6 +3782,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1078148450}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -3728,8 +3807,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -3819,6 +3902,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: zoete Aardappel
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4037,7 +4128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -4047,6 +4138,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1670657319}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -4068,8 +4163,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: HungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -4155,6 +4254,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: lasagne
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4473,7 +4580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -4483,6 +4590,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1555231432}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -4504,8 +4615,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: HungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -4595,6 +4710,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: Taart
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4605,6 +4728,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 533843829}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &554323774 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 359061593}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &559111389
 GameObject:
   m_ObjectHideFlags: 0
@@ -4786,6 +4920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07217d197a2ee2a489c3b03f45fa18f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gameOver: {fileID: 613707578}
   _healthFill: {fileID: 1179298723}
   _hungerFill: {fileID: 388956545}
   _happinessFill: {fileID: 1369064032}
@@ -4833,8 +4968,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80354b0e6507f9047b380d92e7b63d68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameOverUI: {fileID: 0}
-  _scoreText: {fileID: 0}
+  _gameOverPanel: {fileID: 613707575}
+  _scoreText: {fileID: 1692139579}
 --- !u!114 &613707579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5144,7 +5279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -5154,6 +5289,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 673611836}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -5175,8 +5314,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -5262,6 +5405,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'noodles '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5272,6 +5423,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 673611834}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &673611836 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 673611834}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &676829101
 GameObject:
   m_ObjectHideFlags: 0
@@ -5347,115 +5509,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676829101}
   m_CullTransparentMesh: 1
---- !u!1001 &682365952
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1768187228}
-    m_Modifications:
-    - target: {fileID: 3812950259290108441, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_Name
-      value: test screenToBlack
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 2240.6594
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 925.4419
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.36328593
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.36328593
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.36328593
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 407
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 168.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
 --- !u!1 &685002134
 GameObject:
   m_ObjectHideFlags: 0
@@ -5670,11 +5723,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729748010}
   m_CullTransparentMesh: 1
---- !u!224 &765347035 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5158067594211999581, guid: 48cb5f607afbfe44f9020a799f60f2a7, type: 3}
-  m_PrefabInstance: {fileID: 682365952}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &801916977
 GameObject:
   m_ObjectHideFlags: 0
@@ -6079,6 +6127,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832441130}
   m_CullTransparentMesh: 1
+--- !u!114 &837209005 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 345955570}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &860110380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6249,7 +6308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -6266,7 +6325,7 @@ PrefabInstance:
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 860110382}
+      objectReference: {fileID: 1793833757}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -6297,7 +6356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: HungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -6399,6 +6458,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'Vlees '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6409,17 +6476,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 860110380}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &860110382 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
-  m_PrefabInstance: {fileID: 860110380}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &879484342
 GameObject:
   m_ObjectHideFlags: 0
@@ -6914,6 +6970,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1078148450 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 509934570}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1097068957
 GameObject:
   m_ObjectHideFlags: 0
@@ -7237,6 +7304,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174532927}
   m_CullTransparentMesh: 1
+--- !u!114 &1176850343 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 111228841}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1179298721
 GameObject:
   m_ObjectHideFlags: 0
@@ -7482,7 +7560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -7492,6 +7570,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2133118853}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -7513,8 +7595,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -7600,6 +7686,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'Wijn '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7914,7 +8008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -7924,6 +8018,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1202110335}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -7945,8 +8043,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: HungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -8032,6 +8134,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'Macaroni '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8042,6 +8152,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 1202110333}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1202110335 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1202110333}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1241100906
 GameObject:
   m_ObjectHideFlags: 0
@@ -8423,7 +8544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -8433,6 +8554,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2044062388}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -8454,8 +8579,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHappinessIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -8541,6 +8670,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'Wortel '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8721,7 +8858,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -8731,6 +8868,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1339789799}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -8752,8 +8893,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -8839,6 +8984,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'Olijven '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8849,6 +9002,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 1339789797}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1339789799 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1339789797}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1362546631
 GameObject:
   m_ObjectHideFlags: 0
@@ -9230,7 +9394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -9240,6 +9404,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1373569451}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -9261,8 +9429,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: HungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -9348,6 +9520,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'Ansjovis '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9358,63 +9538,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 1373569449}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1420930091
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2570023540152964909, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
-      propertyPath: m_Name
-      value: test bed
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571214465375981672, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -8.559226
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571214465375981672, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.480156
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571214465375981672, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571214465375981672, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571214465375981672, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571214465375981672, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571214465375981672, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571214465375981672, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571214465375981672, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571214465375981672, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 656bd8e9e4dfd1e40b8ee3de9f196b11, type: 3}
+--- !u!114 &1373569451 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1373569449}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1447372902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9585,7 +9719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -9595,6 +9729,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1894777755}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -9616,8 +9754,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -9703,6 +9845,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: Bier
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9841,7 +9991,7 @@ Transform:
   m_GameObject: {fileID: 1459115022}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.71, y: -22.8897, z: 0}
+  m_LocalPosition: {x: 29.24, y: -22.8897, z: 0}
   m_LocalScale: {x: 8.920745, y: 9.567921, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9859,7 +10009,7 @@ GameObject:
   - component: {fileID: 1459416398}
   - component: {fileID: 1459416397}
   m_Layer: 0
-  m_Name: EventSystem (1)
+  m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9926,6 +10076,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1471077410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 969773823616871820, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1658128488}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1479401658
 GameObject:
   m_ObjectHideFlags: 0
@@ -10678,7 +10833,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -10688,6 +10843,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1539291013}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -10709,8 +10868,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -10796,6 +10959,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: Redbull
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10806,6 +10977,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 1539291011}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1539291013 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1539291011}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1550225001
 GameObject:
   m_ObjectHideFlags: 0
@@ -10940,6 +11122,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1555231432 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 533843829}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1598146041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11110,7 +11303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -11120,6 +11313,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1842352124}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -11141,8 +11338,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -11232,6 +11433,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'Prei '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11412,7 +11621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -11422,6 +11631,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1613288179}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -11443,8 +11656,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: HungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -11526,6 +11743,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: Brood
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11536,6 +11761,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 1613288177}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1613288179 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1613288177}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1629036797
 GameObject:
   m_ObjectHideFlags: 0
@@ -11751,8 +11987,8 @@ Transform:
   m_GameObject: {fileID: 1629141724}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.4482, y: -23.1138, z: 2}
-  m_LocalScale: {x: 43.158714, y: 9.119685, z: 1}
+  m_LocalPosition: {x: 5.8045, y: -23.1138, z: 2}
+  m_LocalScale: {x: 39.869484, y: 9.119685, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -12286,7 +12522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -12299,7 +12535,7 @@ PrefabInstance:
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 613707576}
+      objectReference: {fileID: 1471077410}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -12318,7 +12554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -12330,7 +12566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: PlayerStats, Assembly-CSharp
+      value: koopknop, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
@@ -12342,7 +12578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -12404,6 +12640,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: Aardappel
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12414,6 +12658,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 1658128488}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1670657319 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 520403620}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1692139577
 GameObject:
   m_ObjectHideFlags: 0
@@ -12471,7 +12726,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score: '
+  m_text: 'Score: 6'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -12892,7 +13147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -12902,6 +13157,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2039851498}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -12923,8 +13182,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: HealthDecrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -13010,6 +13273,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: Puur vet
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13418,7 +13689,6 @@ RectTransform:
   - {fileID: 1714397696}
   - {fileID: 513341482}
   - {fileID: 685002135}
-  - {fileID: 765347035}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -13501,6 +13771,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791790274}
   m_CullTransparentMesh: 1
+--- !u!114 &1793833757 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 860110380}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1802829846
 GameObject:
   m_ObjectHideFlags: 0
@@ -13759,7 +14040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -13769,6 +14050,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1807978725}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -13790,8 +14075,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -13881,6 +14170,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'Broccoli '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13891,6 +14188,39 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 1807978723}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1807978725 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1807978723}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1842352124 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1598146041}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1894777755 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1447372902}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1935270119
 GameObject:
   m_ObjectHideFlags: 0
@@ -14279,7 +14609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -14289,6 +14619,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1946891376}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -14310,8 +14644,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -14401,6 +14739,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'Gerookte Zalm '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14411,6 +14757,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 1946891374}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1946891376 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1946891374}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1958962582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14581,7 +14938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -14591,6 +14948,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1958962584}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -14612,8 +14973,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -14703,6 +15068,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: Worchestershire saus
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14713,6 +15086,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 1958962582}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1958962584 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1958962582}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1971318504
 GameObject:
   m_ObjectHideFlags: 0
@@ -15151,7 +15535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -15161,6 +15545,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1983533280}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -15182,8 +15570,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -15269,6 +15661,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'Spruitjes '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15279,6 +15679,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 1983533278}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1983533280 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1983533278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1992998041
 GameObject:
   m_ObjectHideFlags: 0
@@ -15549,6 +15960,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993286983}
   m_CullTransparentMesh: 1
+--- !u!114 &2039851498 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1722930251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2044062388 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1298543971}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2102262967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15719,7 +16152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -15729,6 +16162,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2102262969}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -15750,8 +16187,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: HungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -15837,6 +16278,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: 'Spaghetti '
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15847,6 +16296,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 2102262967}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2102262969 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 2102262967}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2105722327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16017,7 +16477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -16031,6 +16491,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2105722329}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -16056,8 +16520,12 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SmallHungerIncrease
+      value: HealthIncrease
       objectReference: {fileID: 0}
     - target: {fileID: 6567831529461663868, guid: 3199a217d909a91469e57ed030229f94, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -16151,6 +16619,14 @@ PrefabInstance:
       propertyPath: _itemNaam
       value: Spinazie
       objectReference: {fileID: 0}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _playerStats
+      value: 
+      objectReference: {fileID: 613707576}
+    - target: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+      propertyPath: _moetVeranderen
+      value: 
+      objectReference: {fileID: 613707575}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16161,6 +16637,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3240153763894439602, guid: 3199a217d909a91469e57ed030229f94, type: 3}
   m_PrefabInstance: {fileID: 2105722327}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2105722329 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 2105722327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2120668875
 GameObject:
   m_ObjectHideFlags: 0
@@ -16651,6 +17138,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2133118853 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7933015985871652899, guid: 3199a217d909a91469e57ed030229f94, type: 3}
+  m_PrefabInstance: {fileID: 1197106358}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2136468417
 GameObject:
   m_ObjectHideFlags: 0
@@ -16840,4 +17338,3 @@ SceneRoots:
   - {fileID: 1459115025}
   - {fileID: 1971318507}
   - {fileID: 1067661119}
-  - {fileID: 1420930091}
