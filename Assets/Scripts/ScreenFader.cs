@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,12 +9,18 @@ public class ScreenFader : MonoBehaviour
 {
 
 
+    [SerializeField] public TMP_Text DayDisplay;
+    private int _daysPassed;
+
     private void Start()
     {
         print("the screenfader script is loaded in"); // sjonge jonge deze heeft mij s wat hoofdpijn gegeven, alsjeblieft niks aan veranderen     ~ Amir
+
+        _daysPassed++;
+
+        DayDisplay.text = "Day: " + _daysPassed;
     }
 
-    private int _daysPassed = 1;
     public static ScreenFader Instance;
     [SerializeField] CanvasGroup canvasGroup;
     [SerializeField] float fadeDuration = 0.5f;
@@ -52,7 +59,8 @@ public class ScreenFader : MonoBehaviour
         _daysPassed++;
         print(_daysPassed);
 
-        DayCounter.DayDisplay.text = "Day: " + _daysPassed;
+        DayDisplay.text = "Day: " + _daysPassed;
+
 
         if (_daysPassed == 7)
         {
