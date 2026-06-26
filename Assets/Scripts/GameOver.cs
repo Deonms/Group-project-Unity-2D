@@ -1,14 +1,15 @@
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour
 {
-    [SerializeField] private GameObject _gameOverUI;
-    [SerializeField] private Text _scoreText;
+    [SerializeField] private GameObject _gameOverPanel;
+    [SerializeField] private TMP_Text _scoreText;
 
-    public void Setup(int score)
+    public void ShowGameOver()
     {
-        gameObject.SetActive(true);
-        _scoreText.text = "Score" + score;
+        _gameOverPanel.SetActive(true);
+        Time.timeScale = 0f;
+        _scoreText.text = "Days Survived: " + ScreenFader.Instance.GetDaysPassed();
     }
 }
