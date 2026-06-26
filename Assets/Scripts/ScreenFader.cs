@@ -1,16 +1,29 @@
 using System.Threading.Tasks;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ScreenFader : MonoBehaviour
 {
+
+
+    [SerializeField] public TMP_Text DayDisplay;
+    private int _daysPassed;
+
     private void Start()
     {
         print("the screenfader script is loaded in"); // sjonge jonge deze heeft mij s wat hoofdpijn gegeven, alsjeblieft niks aan veranderen     ~ Amir
+
+
+        _daysPassed++;
+
+        DayDisplay.text = "Day: " + _daysPassed;
     }
 
     public static int DaysPassed = 1;
+
 
     public static ScreenFader Instance;
     [SerializeField] CanvasGroup canvasGroup;
@@ -18,6 +31,10 @@ public class ScreenFader : MonoBehaviour
 
     private void Awake()
     {
+
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+
         Debug.Log("ScreenFader Awake");
 
         if (Instance == null)
@@ -29,6 +46,7 @@ public class ScreenFader : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
 
     async Task Fade(float targetTransparency)
@@ -52,14 +70,25 @@ public class ScreenFader : MonoBehaviour
     public async Task FadeIn()
     {
         await Fade(0);
+
         print("wakey wakey time for skwool :3");
+
+
+        _daysPassed++;
+        print(_daysPassed);
+
+        DayDisplay.text = "Day: " + _daysPassed;
+
+
+        if (_daysPassed == 7)
+
         DaysPassed++;
         print(DaysPassed);
 
         if (DaysPassed == 7)
+
         {
             print("je hebt het een week overleeft, ok nu tijd voor belastingsfraude! :3");
-
             SceneManager.LoadScene("WinScreen");
         }
     }

@@ -18,9 +18,9 @@ public class FoodSpawner : MonoBehaviour
     {
         _spawnedFood.RemoveAll(food => food == null);
 
-        if (_spawnedFood.Count < _maxSpawning)
+        if (_spawnedFood.Count < _maxSpawning)  //checkt of food = max food
         {
-            SpawnFood();
+            SpawnFood(); //spawns het eten
         }
     }
 
