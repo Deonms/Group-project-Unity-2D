@@ -1,14 +1,11 @@
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
-    [SerializeField] private GameObject _gameOverUI;
-    [SerializeField] private Text _scoreText;
-
-    public void Setup(int score)
+    public void ShowGameOver()
     {
-        gameObject.SetActive(true);
-        _scoreText.text = "Score" + score;
+        SceneManager.LoadScene("GameOverScene");
     }
 }

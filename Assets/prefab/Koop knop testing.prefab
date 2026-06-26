@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7047199369205672904}
   - component: {fileID: 6567831529461663868}
   - component: {fileID: 7933015985871652899}
+  - component: {fileID: 2033001182695638948}
   m_Layer: 5
   m_Name: Koop knop testing
   m_TagString: Untagged
@@ -158,10 +159,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 877dae519300dad4cacdc50167c171fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _item: {fileID: 2033001182695638948}
+  _playerStats: {fileID: 0}
   _geld: {fileID: 0}
-  _itemKost: 1.5
-  _itemNaam: Appel
   _text: {fileID: 6729170727816759337}
+--- !u!114 &2033001182695638948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969773823616871820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6a47ed4a949244fb69bed4b34aac11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _itemNaam: 
+  _itemKost: 0
+  _geld: {fileID: 0}
 --- !u!1 &7840097324589798583
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,23 +5,30 @@ using UnityEngine.SceneManagement;
 
 public class ScreenFader : MonoBehaviour
 {
-
-
     private void Start()
     {
         print("the screenfader script is loaded in"); // sjonge jonge deze heeft mij s wat hoofdpijn gegeven, alsjeblieft niks aan veranderen     ~ Amir
     }
 
+    public static int DaysPassed = 1;
 
-    private int _daysPassed = 1;
     public static ScreenFader Instance;
     [SerializeField] CanvasGroup canvasGroup;
     [SerializeField] float fadeDuration = 0.5f;
 
     private void Awake()
     {
-        if (Instance == null) Instance = this;
-        else Destroy(gameObject);
+        Debug.Log("ScreenFader Awake");
+
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     async Task Fade(float targetTransparency)
@@ -42,15 +49,14 @@ public class ScreenFader : MonoBehaviour
         print("zzzzz mimimimi :3");
     }
 
-
     public async Task FadeIn()
     {
         await Fade(0);
         print("wakey wakey time for skwool :3");
-        _daysPassed++;
-        print(_daysPassed);
+        DaysPassed++;
+        print(DaysPassed);
 
-        if (_daysPassed == 7)
+        if (DaysPassed == 7)
         {
             print("je hebt het een week overleeft, ok nu tijd voor belastingsfraude! :3");
 
