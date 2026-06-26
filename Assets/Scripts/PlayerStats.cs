@@ -38,8 +38,6 @@ public class PlayerStats : MonoBehaviour
 
     private void Start()
     {
-        _gameOver = FindFirstObjectByType<GameOver>();
-
         _currentHealth = _maxHealth;
         _currentHunger = 80f;
         _currentHappiness = _maxHappiness;
@@ -80,68 +78,71 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public void SmallHealthIncrease()
+    public void SmallHealthIncrease(float amount)
     {
-        _currentHealth += Random.Range(1, _changeHealth);
+        _currentHealth += amount;
         _currentHealth = Mathf.Clamp(_currentHealth, 0, _maxHealth);
     }
     
-    public void HealthIncrease()
+    public void HealthIncrease(float amount)
     {
-        _currentHealth += Random.Range(_changeHealth, 10);
+        _currentHealth += amount;
         _currentHealth = Mathf.Clamp(_currentHealth, 0, _maxHealth);
     }
 
-    public void SmallHungerIncrease()
+    public void SmallHungerIncrease(float amount)
     {
-        _currentHunger += Random.Range(1, _changeHunger);
+        _currentHunger += amount;
         _currentHunger = Mathf.Clamp(_currentHunger, 0, _maxHunger);
     }
 
-    public void HungerIncrease()
+    public void HungerIncrease(float amount)
     {
-        _currentHunger += Random.Range(_changeHunger, 10);
+        _currentHunger += amount;
         _currentHunger = Mathf.Clamp(_currentHunger, 0, _maxHunger);
     }
 
-    public void SmallHappinessIncrease()
+    public void SmallHappinessIncrease(float amount)
     {
-        _currentHappiness += Random.Range(1, _changeHappiness);
+        _currentHappiness += amount;
         _currentHappiness = Mathf.Clamp(_currentHappiness, 0, _maxHappiness);
     }
 
-    public void HappinessIncrease()
+    public void HappinessIncrease(float amount)
     {
-        _currentHappiness += Random.Range(_changeHappiness, 10);
+        _currentHappiness += amount;
         _currentHappiness = Mathf.Clamp(_currentHappiness, 0, _maxHappiness);
     }
 
-    public void SmallHealthDecrease()
+    public void SmallHealthDecrease(float amount)
     {
-        _currentHealth -= Random.Range(1, _changeHealth);
+        _currentHealth -= amount;
         _currentHealth = Mathf.Clamp(_currentHealth, 0, _maxHealth);
     }
 
-    public void HealthDecrease()
+    public void HealthDecrease(float amount)
     {
-        _currentHealth -= Random.Range(_changeHealth, 10);
+        _currentHealth -= amount;
         _currentHealth = Mathf.Clamp(_currentHealth, 0, _maxHealth);
     }
 
-    public void SmallHappinessDecrease()
+    public void SmallHappinessDecrease(float amount)
     {
-        _currentHappiness -= Random.Range(1, _changeHappiness);
+        _currentHappiness -= amount;
         _currentHappiness = Mathf.Clamp(_currentHappiness, 0, _maxHappiness);
     }
 
-    public void HappinessDecrease()
+    public void HappinessDecrease(float amount)
     {
-        _currentHappiness -= Random.Range(_changeHappiness, 10);
+        _currentHappiness -= amount;
         _currentHappiness = Mathf.Clamp(_currentHappiness, 0, _maxHappiness);
     }
 
     private void UpdateMood()
     {
+        if (_moodImage == null)
+            return;
+
         float happinessPercentage = _currentHappiness / _maxHappiness;
 
         if (happinessPercentage >= 0.75f)
@@ -163,17 +164,26 @@ public class PlayerStats : MonoBehaviour
     {
         if (_maxHealth > 0)
         {
-            _healthFill.fillAmount = _currentHealth / _maxHealth;
+            if (_healthFill != null)
+            {
+                _healthFill.fillAmount = _currentHealth / _maxHealth;
+            }
         }
 
         if (_maxHunger > 0)
         {
-            _hungerFill.fillAmount = _currentHunger / _maxHunger;
+            if (_hungerFill != null)
+            {
+                _hungerFill.fillAmount = _currentHunger / _maxHunger;
+            }
         }
 
         if (_maxHappiness > 0)
         {
-            _happinessFill.fillAmount = _currentHappiness / _maxHappiness;
+            if (_happinessFill != null)
+            {
+                _happinessFill.fillAmount = _currentHappiness / _maxHappiness;
+            }
         }
 
         if (_currentHealth > _maxHealth)
@@ -189,7 +199,6 @@ public class PlayerStats : MonoBehaviour
         if (_currentHealth <= 0)
         {
             _gameOver.ShowGameOver();
-            enabled = false;
         }
     }
 }
