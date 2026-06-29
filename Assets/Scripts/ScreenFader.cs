@@ -61,7 +61,6 @@ public class ScreenFader : MonoBehaviour
 
         DayDisplay.text = "Day: " + _daysPassed;
 
-
         if (_daysPassed == 7)
         {
             print("je hebt het een week overleeft, ok nu tijd voor belastingsfraude! :3");
